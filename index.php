@@ -20,7 +20,6 @@ We doen (roleplay/hardcore) survivals, Eggwars, Bedwars en nog meer minigame's!<
 <iframe style="height:350px;width:320px;border:none;pointer-events:none;" frameborder="0" src="https://counts.live/embeds/twitch-follower-count/gaminglamasontwitch/large"></iframe>
 </div>
 
-
 <div class="article-box">
 <h2>Chat met ons op onze Discord Server</h2>
 <iframe src="https://discord.com/widget?id=848896940934561822&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
