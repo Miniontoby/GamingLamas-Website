@@ -14,6 +14,12 @@ We spelen op Bedrock en Java. <br>
 We doen (roleplay/hardcore) survivals, Eggwars, Bedwars en nog meer minigame's!</p><br>
 </div>
 
+<div class="article-box">
+<h2>Onze counters</h2>
+<iframe style="height:350px;width:320px;border:none;pointer-events:none;" frameborder="0" src="https://counts.live/embeds/youtube-subscriber-count/UCgV3aDibtZnnG5DS6QCcIxQ/large"></iframe>
+<iframe style="height:350px;width:320px;border:none;pointer-events:none;" frameborder="0" src="https://counts.live/embeds/twitch-follower-count/gaminglamasontwitch/large"></iframe>
+</div>
+
 
 <div class="article-box">
 <h2>Chat met ons op onze Discord Server</h2>

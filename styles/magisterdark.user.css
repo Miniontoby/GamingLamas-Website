@@ -1,0 +1,405 @@
+/* ==UserStyle==
+@name           Magister Dark
+@namespace      github.com/openstyles/stylus
+@version        1.0.10
+@description    Magister Dark
+@author         Miniontoby
+@updateURL		https://gaminglamas.ircforever.org/styles/magisterdark.user.css
+==/UserStyle== */
+
+@-moz-document domain("ccnv.magister.net"), domain("accounts.magister.net") {
+	body, .header, .dna-editor-content-area, .container, app-bericht-details {
+		background-color: dimgrey !important;
+	}
+	.content-container {
+		background-color: #1F1F1F !important;
+		border: 1px solid #1F1F1F !important;
+	}
+	.block .content, .block h3, dl.list-dl, table.table-grid-layout tr, #studiewijzer-container div.studiewijzer-list.normaal > ul > li > a, .studiewijzer-onderdeel > div.block > div.content > div, .cijfers-k-grid.k-grid .k-grid-content td span, div.ngCellText, .block .content form, div.profile-content, span.datetime-label, .main div.multi-columns .col:last-child, .main div.multi-columns .col-noprint:last-child, .k-scheduler-table, .dna-menu-light .dna-menu-item-disabled {
+		background-color: #444 !important
+	}
+	.block {
+		background-color: #333 !important;
+		border: 1px solid #424242 !important;
+	}
+	.block h3 {
+		color: #F4F4F4 !important;
+		border-bottom: 1px solid #1F1F1F !important;
+	}
+	.endlink {
+		background-color: #333 !important;
+		border-top: 1px solid #1F1F1F !important;
+	}
+	a {
+		color: grey !important;
+	}
+	#vandaag-container .grade-widget ul {
+		background-color: #333 !important;
+		border-bottom: 1px solid #444 !important
+	}
+	.widget li {
+		background-color: #333 !important;
+		border-bottom: 1px solid #424242 !important
+	}
+	.menu > ul {
+		border-top: 8px solid #424242 !important
+	}
+	.header {
+		background-color: dimgrey !important
+	}
+	.menu, span.nrblock, aside .tabs li a, div.loading-overlay, .loading-overlay.ng-isolate-scope, .loading-overlay, .sidecolumn aside .head-bar .asideTrigger, .dna-form-actions, .sticky-buttons-bottom, .dna-dialog, .dna-snack-bar-message {
+		background-color: grey !important;
+	}
+	span.nrblock {
+		color: white;
+	}
+	.block .content p {
+		color: #FFF !important
+	}
+	aside .tabs li a {
+		border: 1px solid #333 !important;
+		color: white !important;
+	}
+	aside .tabs li.active a {
+		border-color: #333 #333 !important;
+		background-color: dimgrey;
+	}
+	dl.list-dl dt, dl.list-dl dd {
+		border-top: 1px solid #333 !important;
+	}
+	.sm-grid.k-grid .k-grid-content tr {
+		background: none repeat scroll 0 0 #444 !important
+	}
+	.sm-grid.k-grid .k-grid-content tr.k-state-selected, .first-column  {
+		background: none repeat scroll 0 0 #212121 !important
+	}
+	.sources li.selected > a {
+		background-color: #212121 !important
+	}
+	.column-container h3,
+	.messages h3 {
+		background: linear-gradient(to bottom, #333 0px, #333 100%) repeat scroll 0 0 transparent
+	}
+	.cat-detailcolumn {
+		background: none repeat scroll 0 0 #333 !important
+	}
+	.rest-column {
+		background: none repeat scroll 0 0 #444 !important
+	}
+	.dialog {
+		border: 1px solid #424242 !important
+	}
+	#studiewijzer-container div.studiewijzer-list div.head {
+		background: linear-gradient(to bottom, #333 0px, #444 100%) repeat scroll 0 0 transparent !important;
+		box-shadow: 1px 3px 3px 0 #222 !important
+	}
+	#studiewijzer-container div.studiewijzer-list div.head span:first-child, #studiewijzer-container div.studiewijzer-list div.head span:last-child, div.opdrachten-list th, .widget .dualcollumn-list li, .widget .dualcollumn-list li.onecol, #opdracht-detail div.comment, .block h3 span.icon-up-arrow, .block h3 span.icon-down-arrow, .text-input label, .label-input label, .block .content .title, .details-info *, p, .sm-grid.k-grid .k-grid-content td, .comment.ng-binding.ng-scope, .sm-grid.k-grid .k-grid-content .k-grouping-row .group-header-content, .cijfers-k-grid.k-grid .double-header, .cijfers-k-grid.k-grid .k-grid-content td span, .from, .multi-line, fieldset label, .card .content.content-high, .k-calendar thead th, .block h4, .block .content form label, .k-scheduler-times th, .studiewijzer-onderdeel > div.block > div.content > div, div.ngCell, div.ngCellText, div.ngVerticalBar, div.ngHeaderCell, div.ngHeaderContainer, table.table-grid-layout th, .k-scheduler-workWeekview .k-scheduler-header .k-scheduler-table th, dl.list-dl dt, dl.list-dl dd {
+		color: #F2F2F2 !important
+	}
+	div.opdrachten-list.normaal td {
+		color: #F2F2F2
+	}
+	table.table-grid-layout th {
+		box-shadow: 1px 3px 3px 0 #222 !important;
+		background: linear-gradient(to bottom, #333 0px, #444 100%) repeat scroll 0 0 transparent !important;
+	}
+	table.table-grid-layout td {
+		color: #F2F2F2 
+	}
+	.sm-grid.k-grid .k-grid-content .k-grouping-row .group-header-content {
+		background: linear-gradient(to bottom, #333 0px, #444 100%) repeat scroll 0 0 transparent !important;
+	}
+	.sm-grid.k-grid .k-grid-content {
+		background-color: #333 !important
+	}
+	.cijfers-k-grid.k-grid .k-grid-header th.k-header {
+		background: linear-gradient(to bottom, #333 0px, #444 100%) repeat scroll 0 0 transparent !important
+	}
+	.cijfers-k-grid.k-grid .grade.gemiddeldecolumn {
+		background-color: #54AD54 !important
+	}
+	.cijfers-k-grid.k-grid .grade.empty {
+		background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAGElEQVQImWO4evXqfwYoQGZjCBCWpJ5RAEVOKenK4yvqAAAAAElFTkSuQmCC) repeat scroll 0 0 #444 !important
+	}
+	#cijfers-container .main div.content-container-cijfers {
+		background-color: #333 !important;
+		color: white !important; 
+	}
+	#cijfers-container aside .widget .cijfer-berekend td{
+		background-color: lightgray !important;
+		color: black;
+	}
+	#cijfers-container aside .widget .cijfer-berekend th strong, 
+	#cijfers-container aside .widget .cijfer-berekend td strong, 
+	#cijfers-container aside .widget .cijfer-berekend th:first-child, 
+	#cijfers-container aside .widget .cijfer-berekend td:first-child, 
+	#cijfers-container aside .widget .cijfer-berekend th{
+		background-color: lightgray;
+		color: black !important;
+	}
+	.insufficient{
+		color: red !important;
+	}
+	.ngViewport {
+		background-color: #333 !important
+	}
+	.ngHeaderText {
+		background-color: #333 !important
+	}
+	#notificatie-widget b {
+		width: 250px !important
+	}
+	.grade.eloopdracht {
+		color: #000 !important
+	}
+	.card {
+		border: 1px solid #424242 !important
+	}
+	.card .content.content-high {
+		background: linear-gradient(#444, #333) !important;
+	}
+	.account-dialog .content-pane, .dialog .content {
+		background: #222 !important
+	}
+	.k-header {
+		background-color: #333 !important
+	}
+	.k-content {
+		background-color: #424242 !important
+	}
+	.k-calendar .k-header .k-state-hover {
+		background: #333 !important
+	}
+	.k-calendar thead th {
+		background-color: #222 !important;
+		border-top: 1px solid #111 !important;
+		border-right: 1px solid #444 !important;
+		border-bottom: 1px solid #111 !important;
+	}
+	.k-calendar td.range-select {
+		background-color: #222 !important;
+		border: 1px solid #F5F5F5 !important
+	}
+	.k-calendar td.range-select.last {
+		border-right: 1px solid #F5F5F5 !important
+	}
+	.k-calendar td.range-select.last {
+		border-left: 1px solid #F5F5F5 !important
+	}
+	.block h4 {
+		background: none repeat scroll 0 0 #444 !important;
+		border-top: 1px solid #444 !important;
+		border-bottom: 1px solid #F2F2F2 !important;
+	}
+	form .radio input[type="radio"]:checked ~ label,
+	fieldset .radio input[type="radio"]:checked ~ label {
+		color: #101010 !important
+	}
+	form .radio input[type="radio"] ~ label,
+	fieldset .radio input[type="radio"] ~ label {
+		color: #101010 !important
+	}
+	.dialog .title {
+		background-color: #333 !important
+	}
+	.endlink {
+		text-transform: unset !important
+	}
+	.endlink p {
+		float: left;
+		padding-left: 8px
+	}
+	div.profile-content {
+		color: #FFF !important
+	}
+	span.datetime-label {
+		background-color: #444 !important;
+		text-align: left !important
+	}
+	.main div.multi-columns .col,
+	.main div.multi-columns .col-noprint {
+		background-color: #242424 !important
+	}
+	.k-treeview .k-in.k-state-selected > a,
+	.k-treeview .k-in.k-state-selected.k-state-focused > a,
+	.k-treeview .k-in.k-state-selected .k-state-focused > a {
+		background-color: #222 !important
+	}
+	.k-treeview .k-in > a.single-row {
+		background-color: #333 !important
+	}
+	.sources h3 {
+		background: #222 !important
+	}
+	.k-scheduler-table td {
+		border-color: #333 !important
+	}
+	.k-nonwork-hour {
+		background-color: #333 !important;
+		border-color: #333 !important
+	}
+	.k-scheduler-times tr {
+		background-color: #333 !important
+	}
+	.k-scheduler .k-event {
+		background: #242424 -257px none repeat-x !important;
+		color: #FFF !important
+	}
+	.k-scheduler-workWeekview .k-scheduler-header .k-scheduler-table th {
+		background: #333 !important;
+		box-shadow: 0 2px 5px 0 #444 !important
+	}
+	.k-today {
+		background-color: #313131 !important
+	}
+	.k-scheduler-table th {
+		background: #333 !important
+	}
+	#updateGlyph::before {
+		content: "+" !important
+	}
+	#updateMsg {
+		background-color: #d9edf7 !important;
+		border-color: #bce8f1 !important
+	}
+	#updateMsg a {
+		color: #245269;
+		text-decoration: underline;
+		padding-right: 3px
+	}
+	#updateMsg span {
+		color: #133E54
+	}
+	#updateMsg i {
+		background-color: #d9edf7 !important;
+		border-color: #bce8f1 !important
+	}
+	#updateMsg > span:nth-child(2) {
+		font-weight: 700
+	}
+	.grade-gemiddelde {
+		width: 120px;
+		height: 120px;
+		text-align: center;
+		color: #FFF;
+		padding-top: 10px;
+		background-color: #0096db;
+		margin: 10px 0 0 10px;
+		float: left
+	}
+	.grade-gemiddelde .cijfer {
+		font-size: 50px !important
+	}
+	.grade-gemiddelde .omschrijving {
+		font-size: 16px;
+		display: block
+	}
+	.grade-gemiddelde .subtitle {
+		font-size: 12px
+	}
+	.grade-gemiddelde .cijfer.percentage::after {
+		font-size: 25px;
+		content: '%'
+	}
+	.account mg-background-carrousel {
+		display: none
+	}
+	body[contenteditable="true"] {
+		background-color: #FFF !important
+	}
+	.attachment-bar::before,
+	#berichten-detail-container .new-message-block li label {
+		color: #F2F2F2
+	}
+	#berichten-detail-container .k-dropdown .k-input,
+	#berichten-detail-container .new-message-block .contact-personen .fancy-input ul {
+		color: #FFF
+	}
+	#berichten-detail-container .k-dropdown .k-dropdown-wrap .k-select::after {
+		border-color: #EEE rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(255, 255, 255, 0)
+	}
+	.appbar{
+		background-color: dimgrey;
+	}
+	.menu-host, .menu-footer, .menu-footer a{
+		background-color: grey;
+		color: white !important;
+	}
+	.main-menu li a, .appbar>div>a, a.appbar-button {
+		background: blue !important; 
+		color: white !important;
+	}
+	.dna-editor-content-area, .container, app-bericht-details{
+		color: white !important;
+	}
+	.dna-tree-selectable .dna-tree-node-selected{
+		background: lightgrey !important;
+		color: white !important;
+	}
+	dna-tree, .dna-tree, dna-tree-node, .dna-tree-node, .dna-tree-selectable, .nieuw-bericht-container  {
+		background: darkgrey !important;
+		color: white !important;
+	}
+	dna-tree-node:hover, .dna-tree-selectable .dna-tree-node-wrapper:hover{
+		background: darkgreen !important;
+		color: white !important;
+	}
+	.bericht-item, .informatie *, .afzender * {
+		background-color: #979494;
+		color: #e7e7e7 !important;
+	}
+	.bericht-item.active, 
+	.dna-btn-primary, .head-bar div>a.text-button, .nieuw-bericht, 
+	.bericht-item.active .informatie *, .bericht-item.active .afzender * {
+		background-color: darkgreen !important;
+		color: #e7e7e7 !important;
+	}
+	.bericht-item:hover, .bericht-item:hover .informatie *, .bericht-item:hover .afzender * {
+		background-color: blueviolet !important;
+		color: #e7e7e7 !important;
+	}
+	.agenda-lesdashboard .lesvak-prev-next .content-auto span.current{
+		background-color: #9c9c9c;
+		color: white;
+	}
+	.agenda-lesdashboard .lesvak-prev-next .content-auto span.icon-up-arrow.prev:hover, .agenda-lesdashboard .lesvak-prev-next .content-auto span.icon-up-arrow.next:hover{
+		background-color: gold;
+		color: white;
+	}
+	div.loading-overlay, .loading-overlay.ng-isolate-scope, .loading-overlay{
+		color: white;
+	}
+	.widget .list li a{
+		background-color: #9c9c9c !important;
+		color: white !important;
+	}
+	.faux.popup-menu, .collapsed-menu .popup-menu ul li a{
+		background-color: dimgrey;
+		color: white !important;
+	}
+	.collapsed-menu .popup-menu ul li a:hover{
+		background-color: darkgreen ;
+		color: white;
+	}
+	.dna-form-actions, .sticky-buttons-bottom, .dna-dialog, .dna-snack-bar-message {
+		color: white;
+	}
+	.center.ng-binding.onvoldoende, .cijfers-k-grid.k-grid .grade.insufficient {
+		color: #c3000c !important; 
+	}
+	.toasts, .toast.ng-scope.info-toast, .toast i, .toast .ng-binding{
+		background-color: #222 !important;
+		fill: #222 !important;
+		color: #fff2ff !important;
+	}
+	.forwarded, .replied{
+		color: #cdc9c9 !important;
+		background-color: dimgrey;
+	}
+	#afsprakenlijst-container .today{
+		color: #41c241 !important;
+	}
+	.main-menu>li.active>a, .main-menu>li>a:hover {
+		background-color: lightblue !important;
+	}
+}
