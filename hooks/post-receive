@@ -1,0 +1,2 @@
+#!/bin/ksh
+GIT_WORK_TREE=/var/www/htdocs/webhosting/gaminglamas.ircforever.org git checkout -f
