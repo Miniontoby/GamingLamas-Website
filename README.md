@@ -1,5 +1,5 @@
 ## GamingLamas Website Source
 
-[[https://gaminglamas.ircforever.org/]]
+Official Source of the https://gaminglamas.ircforever.org/
 
 
